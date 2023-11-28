@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "258258ab-2ef2-4acb-bba4-2b82facd8371",
+		"name": "Express_ej2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31434284"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 get raíz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000"
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 get Productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/Productos"
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 post Productos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:3000/Productos"
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 put Productos",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "localhost:3000/Productos"
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 delete Productos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:3000/Productos"
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 get Usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/Usuarios"
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 post Usuarios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:3000/Usuarios"
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 put Usuarios",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "localhost:3000/Usuarios"
+			},
+			"response": []
+		},
+		{
+			"name": "ej2 delete Usuarios",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:3000/Usuarios"
+			},
+			"response": []
+		}
+	]
+}
