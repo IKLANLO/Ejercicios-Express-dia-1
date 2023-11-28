@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "5d866963-efbd-44ba-a281-78008a2f243d",
+		"name": "Express_ej3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31434284"
+	},
+	"item": [
+		{
+			"name": "ej3 get products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/products"
+			},
+			"response": []
+		},
+		{
+			"name": "ej3 post newProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"nombre\": \"Escultura\" , \r\n    \"precio\": 200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/products/newProduct"
+			},
+			"response": []
+		},
+		{
+			"name": "ej3 put products",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n    \"precio\": 90\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/products/id/2"
+			},
+			"response": []
+		},
+		{
+			"name": "ej3 delete products",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:3000/products/deleteId/1"
+			},
+			"response": []
+		},
+		{
+			"name": "ej3 get prize",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/products/prize/100"
+			},
+			"response": []
+		},
+		{
+			"name": "ej3 get prize 50-250",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/products/prize/"
+			},
+			"response": []
+		},
+		{
+			"name": "ej3 get id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/products/searchId/5"
+			},
+			"response": []
+		},
+		{
+			"name": "ej3 get name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/products/searchName/Taza de Star Wars"
+			},
+			"response": []
+		}
+	]
+}
